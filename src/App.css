@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.pdfcont {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border:2px solid green
+}
+.page-container {
+  margin: 20px;
+  width: 650px;
+  height: 700px;
+  overflow-y: scroll;
+  border:2px solid rgb(218, 86, 9)
+
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  border:2px solid rgb(94, 5, 237)
+}
+.button-container {
+  display: flex;
+  gap: 8px;
+}
